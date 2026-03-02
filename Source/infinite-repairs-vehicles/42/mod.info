@@ -1,0 +1,7 @@
+id=infinite-repairs-vehicles
+name=Infinite Repairs (Vehicles)
+author=soosgjr
+description=Disables the diminishing potential of repairs. Only affects items repaired through the vehicle mechanics screen.
+icon=icon.png
+modversion=0.1.0
+poster=poster.png
