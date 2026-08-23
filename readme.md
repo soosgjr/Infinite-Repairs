@@ -13,13 +13,13 @@ path. Once this is done, the mod has to be enabled in the game's mod menu.
 # Usage
 
 There are two separate mods that can be enabled, one affects items repaired
-through the inventory, the other affects items repaired through the vehicle
-mechanics screen.
+through the inventory or crafting recipes, the other affects items repaired
+through the vehicle mechanics screen.
 
 
 ## Compatibility
 
-The mod was developed for version 42.14.1 of Project Zomboid.
+The mod was developed for version 42.20.3 of Project Zomboid.
 
 
 ## License
@@ -35,6 +35,9 @@ developed by Gabor Soos.
 
 
 ## Version History
+
+- Version 0.2.0, August 23rd, 2026
+  - Extended the inventory mod's functionality to also include handcrafted recipes.
 
 - Version 0.1.0, March 1st, 2026
   - The initial release.
