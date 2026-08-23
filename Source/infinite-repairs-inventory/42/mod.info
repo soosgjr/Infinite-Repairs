@@ -1,7 +1,7 @@
 id=infinite-repairs-inventory
 name=Infinite Repairs (Inventory)
 author=soosgjr
-description=Disables the diminishing potential of repairs. Only affects items repaired through the inventory.
+description=Disables the diminishing potential of repairs. Only affects items repaired through the inventory or crafting recipes.
 icon=icon.png
-modversion=0.1.0
+modversion=0.2.0
 poster=poster.png
