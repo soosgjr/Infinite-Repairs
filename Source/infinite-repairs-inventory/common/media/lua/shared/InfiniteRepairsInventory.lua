@@ -3,8 +3,9 @@ require "TimedActions/ISHandcraftAction"
 
 local ISFixAction_complete_base = ISFixAction.complete;
 function ISFixAction:complete()
-	ISFixAction_complete_base(self);
+	local result = ISFixAction_complete_base(self);
 	removeRepair(self.item);
+	return result;
 end
 
 local ISFixAction_perform_base = ISFixAction.perform;
@@ -15,8 +16,9 @@ end
 
 local ISHandcraftAction_complete_base = ISHandcraftAction.complete;
 function ISHandcraftAction:complete()
-	ISHandcraftAction_complete_base(self);
+	local result = ISHandcraftAction_complete_base(self);
 	removeRepairs(self.items);
+	return result;
 end
 
 local ISHandcraftAction_perform_base = ISHandcraftAction.perform;
