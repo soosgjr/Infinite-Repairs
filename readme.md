@@ -19,7 +19,9 @@ through the vehicle mechanics screen.
 
 ## Compatibility
 
-The mod was developed for version 42.20.3 of Project Zomboid.
+The mod was developed for version 42.20.4 of Project Zomboid. It's using the
+append/prepend approach to inject its functionality and should be placed at the
+end of the load order.
 
 
 ## License
@@ -35,6 +37,9 @@ developed by Gabor Soos.
 
 
 ## Version History
+
+- Version 0.2.1, August 30th, 2026
+  - Fixed the return values of the complete events.
 
 - Version 0.2.0, August 23rd, 2026
   - Extended the inventory mod's functionality to also include handcrafted recipes.

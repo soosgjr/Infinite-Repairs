@@ -2,8 +2,9 @@ require "TimedActions/ISFixVehiclePartAction"
 
 local ISFixVehiclePartAction_complete_base = ISFixVehiclePartAction.complete;
 function ISFixVehiclePartAction:complete()
-	ISFixVehiclePartAction_complete_base(self);
+	local result = ISFixVehiclePartAction_complete_base(self);
 	self.item:setHaveBeenRepaired(0);
+	return result;
 end
 
 local ISFixVehiclePartAction_perform_base = ISFixVehiclePartAction.perform;
